@@ -7,13 +7,13 @@ services:
     buildCommand: npm install
     startCommand: npm start
     envVars:
-      - key: BOT_TOKEN
+      - key: 7634927433:AAFEFLNY9sPxpR3Z40hFOkSM51dbNkHbEUk
         fromDotEnv: true
       - key: PORT
         value: 8000
-      - key: ADMINS
+      - key: 7832264582
         fromDotEnv: true
-      - key: ADMIN_PASSWORD
+      - key: 7832264582
         fromDotEnv: true
-      - key: ADMIN_USERNAME
+      - key: fxtelebot
         fromDotEnv: true
