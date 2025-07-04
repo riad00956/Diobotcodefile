@@ -1,0 +1,19 @@
+
+services:
+  - type: web
+    name: fx-topup-bot
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: BOT_TOKEN
+        fromDotEnv: true
+      - key: PORT
+        value: 8000
+      - key: ADMINS
+        fromDotEnv: true
+      - key: ADMIN_PASSWORD
+        fromDotEnv: true
+      - key: ADMIN_USERNAME
+        fromDotEnv: true
